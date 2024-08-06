@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:100vw;
+    background-image: url(negocios-digitais8.gif);
+}
+.container {
+    background: #E8EAED;
+    height: 450px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.output {
+    background:rgba(255, 255, 255, 0.5);
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    margin-top: 50px;
+    /* padding-right: 50px; */
+    font-size: 40px;
+
+}
+.input {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-box {
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    
+}
+.button-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.button-row1,
+.button-row2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+    height: 50px;
+    margin-top:10px;
+    margin-bottom: 60px;
+    
+}
+.operator {
+    width: 48%;
+    height: 100px;
+    box-sizing: border-box;
+    border-width: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Poppins;
+
+}
+.green{
+    background-color: #32A350;
+}
+.yellow{
+    background-color: #a17c11;
+
+}
+.blue{
+    background-color: #4081EC;
+}
+.red{
+    background-color: #E34133;
+}
+.error {
+    border: 2px solid red;  
+}
